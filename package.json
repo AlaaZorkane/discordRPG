@@ -10,7 +10,7 @@
     "socket.io": "^2.1.1"
   },
   "scripts": {
-    "": "",
+    "compile:sass": "node-sass sass/main.scss -o css/style.css -w",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
